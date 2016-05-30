@@ -2,7 +2,7 @@
 # A line leading by '#' is a comment line.
 # Author: Haiyang Yu
 # Contact: yuhaiyang@outlook.com
-# Create Date: 2016-05-30 08:49:00
+# Create Date: 2016-05-30 09:11:04
 # Mapping relation: [abbr.] --- ISP
 # abbr. should be 'A~Z', ISP name length 1~31.
 # ISP name is composed of alphabet and '-'.
@@ -38,7 +38,7 @@
 2:27.36.0.0/14
 2:27.40.0.0/13
 2:27.50.128.0/17
-2:27.54.192.0
+2:27.54.192.0/32
 2:27.98.224.0/19
 2:27.112.0.0/21
 2:27.112.8.0/22
