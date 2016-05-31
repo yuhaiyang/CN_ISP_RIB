@@ -21,6 +21,6 @@
 
 #反馈
 由于是脚本自动生成，难免出现误差，所以如果出现IP地址与运营商不符或其他问题，你可以通过以下方式联系我
-* 本项目提交Issue
+* 本项目[提交Issue](issues/new)
 * 通过[博客页面](http://www.cnblogs.com/haiyangyu/p/5545133.html "[定期自动更新]Hillstone 山石网科 StoneOS ISP路由表配置文件")留言
 * 给我[发送邮件](mailto:yuhaiyang@outlook.com)
