@@ -11,9 +11,10 @@
 	“网络”=>”路由”=>”ISP信息”=>”上传”=>“从电脑上传用户定义的ISP配置文件”=>”浏览”=>选择已下载StoneOS-User-Defined-ISP.DAT文件=>”上传”
 
 ##CLI方式导入至(需要自建FTP或者TFTP服务器，以TFTP为例)
-
+```Bash
 	import ispfile from tftp server 192.168.1.2 StoneOS-User-Defined-ISP.DAT
-
+```
+	
 #已知问题
 * 不支持二级运营商、教育网等
 * 由于低端设备最大ISP路由条目为1000条，所以在导入值低端设备时，会提示“上传失败”，实际联通和移动已导入成功，电信只导入前1000条
