@@ -5,13 +5,13 @@
 * 覆盖中国大陆地区电信、联通、移动三大运营商，长宽、电信通等二级运营商以及教育网正在准备中
 * 每天自动更新，确保可以获取到最新的路由信息
 # 安装
-##WebUI方式导入至StoneOS（以5.0版本为例）:
+>>WebUI方式导入至StoneOS（以5.0版本为例）:
 
-“网络”=>”路由”=>”ISP信息”=>”上传”=>“从电脑上传用户定义的ISP配置文件”=>”浏览”=>选择已下载StoneOS-User-Defined-ISP.DAT文件=>”上传”
+>>>“网络”=>”路由”=>”ISP信息”=>”上传”=>“从电脑上传用户定义的ISP配置文件”=>”浏览”=>选择已下载StoneOS-User-Defined-ISP.DAT文件=>”上传”
 
-##CLI方式导入至(需要自建FTP或者TFTP服务器，以TFTP为例)
+>>CLI方式导入至(需要自建FTP或者TFTP服务器，以TFTP为例)
 
-import ispfile from tftp server 192.168.1.2 StoneOS-User-Defined-ISP.DAT
+>>>import ispfile from tftp server 192.168.1.2 StoneOS-User-Defined-ISP.DAT
 
 #已知问题
 不支持二级运营商、教育网等
