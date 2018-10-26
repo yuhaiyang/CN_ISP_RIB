@@ -1,26 +1,32 @@
-# ¼ò½é
-* Êý¾Ý»ùÓÚAPNIC£¬×¼È·ÓÐÐ§
-* ÊÊÓÃÓÚStoneOS 4.0~5.5¸÷°æ±¾
-* ¶ÔAPNICÊý¾Ý½øÐÐÂ·ÓÉ¾ÛºÏ£¬ÊµÏÖ×îÐ¡×ÓÍø
-* ¸²¸ÇÖÐ¹ú´óÂ½µØÇøµçÐÅ¡¢ÁªÍ¨¡¢ÒÆ¶¯Èý´óÔËÓªÉÌ£¬³¤¿í¡¢µçÐÅÍ¨µÈ¶þ¼¶ÔËÓªÉÌÒÔ¼°½ÌÓýÍøÕýÔÚ×¼±¸ÖÐ
-* Ã¿Ìì×Ô¶¯¸üÐÂ£¬È·±£¿ÉÒÔ»ñÈ¡µ½×îÐÂµÄÂ·ÓÉÐÅÏ¢
+# ç®€ä»‹
 
-# °²×°
-##WebUI·½Ê½µ¼ÈëÖÁStoneOS£¨ÒÔ5.0°æ±¾ÎªÀý£©:
+* æ•°æ®åŸºäºŽAPNICï¼Œå‡†ç¡®æœ‰æ•ˆ
+* é€‚ç”¨äºŽStoneOS 4.0~5.5å„ç‰ˆæœ¬
+* å¯¹APNICæ•°æ®è¿›è¡Œè·¯ç”±èšåˆï¼Œå®žçŽ°æœ€å°å­ç½‘
+* è¦†ç›–ä¸­å›½å¤§é™†åœ°åŒºç”µä¿¡ã€è”é€šã€ç§»åŠ¨ä¸‰å¤§è¿è¥å•†ï¼Œé•¿å®½ã€ç”µä¿¡é€šç­‰äºŒçº§è¿è¥å•†ä»¥åŠæ•™è‚²ç½‘æ­£åœ¨å‡†å¤‡ä¸­
+* æ¯å¤©è‡ªåŠ¨æ›´æ–°ï¼Œç¡®ä¿å¯ä»¥èŽ·å–åˆ°æœ€æ–°çš„è·¯ç”±ä¿¡æ¯
 
-	¡°ÍøÂç¡±=>¡±Â·ÓÉ¡±=>¡±ISPÐÅÏ¢¡±=>¡±ÉÏ´«¡±=>¡°´ÓµçÄÔÉÏ´«ÓÃ»§¶¨ÒåµÄISPÅäÖÃÎÄ¼þ¡±=>¡±ä¯ÀÀ¡±=>Ñ¡ÔñÒÑÏÂÔØStoneOS-User-Defined-ISP.DATÎÄ¼þ=>¡±ÉÏ´«¡±
+# å®‰è£…
 
-##CLI·½Ê½µ¼ÈëÖÁ(ÐèÒª×Ô½¨FTP»òÕßTFTP·þÎñÆ÷£¬ÒÔTFTPÎªÀý)
+WebUIæ–¹å¼å¯¼å…¥è‡³StoneOSï¼ˆä»¥5.0ç‰ˆæœ¬ä¸ºä¾‹ï¼‰:
+
+	â€œç½‘ç»œâ€=>â€è·¯ç”±â€=>â€ISPä¿¡æ¯â€=>â€ä¸Šä¼ â€=>â€œä»Žç”µè„‘ä¸Šä¼ ç”¨æˆ·å®šä¹‰çš„ISPé…ç½®æ–‡ä»¶â€=>â€æµè§ˆâ€=>é€‰æ‹©å·²ä¸‹è½½StoneOS-User-Defined-ISP.DATæ–‡ä»¶=>â€ä¸Šä¼ â€
+
+CLIæ–¹å¼å¯¼å…¥è‡³(éœ€è¦è‡ªå»ºFTPæˆ–è€…TFTPæœåŠ¡å™¨ï¼Œä»¥TFTPä¸ºä¾‹)
+
 ```Bash
-	import ispfile from tftp server 192.168.1.2 StoneOS-User-Defined-ISP.DAT
+import ispfile from tftp server 192.168.1.2 StoneOS-User-Defined-ISP.DAT
 ```
 	
-#ÒÑÖªÎÊÌâ
-* ²»Ö§³Ö¶þ¼¶ÔËÓªÉÌ¡¢½ÌÓýÍøµÈ
-* ÓÉÓÚµÍÐÔÄÜÉè±¸×î´óISPÂ·ÓÉÌõÄ¿Îª1000Ìõ£¬ËùÒÔÔÚµ¼ÈëÖµµÍ¶ËÉè±¸Ê±£¬»áÌáÊ¾¡°ÉÏ´«Ê§°Ü¡±£¬Êµ¼ÊÁªÍ¨ºÍÒÆ¶¯ÒÑµ¼Èë³É¹¦£¬µçÐÅÖ»µ¼ÈëÇ°1000Ìõ£¬ËùÒÔ¶ÔÓÚµÍÐÔÄÜÉè±¸£¬Çëµ¼ÈëStoneOS-User-Defined-ISP-split.DAT ÎÄ¼þ£¬¸ÃÎÄ¼þ½«µçÐÅÂ·ÓÉ±í°´ÕÕ1000Ìõ½øÐÐÁË²ð·Ö¡£
+# å·²çŸ¥é—®é¢˜
 
-#·´À¡
-ÓÉÓÚÊÇ½Å±¾×Ô¶¯Éú³É£¬ÄÑÃâ³öÏÖÎó²î£¬ËùÒÔÈç¹û³öÏÖIPµØÖ·ÓëÔËÓªÉÌ²»·û»òÆäËûÎÊÌâ£¬Äã¿ÉÒÔÍ¨¹ýÒÔÏÂ·½Ê½ÁªÏµÎÒ
-* ±¾ÏîÄ¿[Ìá½»Issue](https://github.com/yuhaiyang/CN_ISP_RIB/issues/new)
-* Í¨¹ý[²©¿ÍÒ³Ãæ](http://www.cnblogs.com/haiyangyu/p/5545133.html "[¶¨ÆÚ×Ô¶¯¸üÐÂ]Hillstone É½Ê¯Íø¿Æ StoneOS ISPÂ·ÓÉ±íÅäÖÃÎÄ¼þ")ÁôÑÔ
-* ¸øÎÒ[·¢ËÍÓÊ¼þ](mailto:yuhaiyang@outlook.com)
+* ä¸æ”¯æŒäºŒçº§è¿è¥å•†ã€æ•™è‚²ç½‘ç­‰
+* ç”±äºŽä½Žæ€§èƒ½è®¾å¤‡æœ€å¤§ISPè·¯ç”±æ¡ç›®ä¸º1000æ¡ï¼Œæ‰€ä»¥åœ¨å¯¼å…¥å€¼ä½Žç«¯è®¾å¤‡æ—¶ï¼Œä¼šæç¤ºâ€œä¸Šä¼ å¤±è´¥â€ï¼Œå®žé™…è”é€šå’Œç§»åŠ¨å·²å¯¼å…¥æˆåŠŸï¼Œç”µä¿¡åªå¯¼å…¥å‰1000æ¡ï¼Œæ‰€ä»¥å¯¹äºŽä½Žæ€§èƒ½è®¾å¤‡ï¼Œè¯·å¯¼å…¥StoneOS-User-Defined-ISP-split.DAT æ–‡ä»¶ï¼Œè¯¥æ–‡ä»¶å°†ç”µä¿¡è·¯ç”±è¡¨æŒ‰ç…§1000æ¡è¿›è¡Œäº†æ‹†åˆ†ã€‚
+
+# åé¦ˆ
+
+ç”±äºŽæ˜¯è„šæœ¬è‡ªåŠ¨ç”Ÿæˆï¼Œéš¾å…å‡ºçŽ°è¯¯å·®ï¼Œæ‰€ä»¥å¦‚æžœå‡ºçŽ°IPåœ°å€ä¸Žè¿è¥å•†ä¸ç¬¦æˆ–å…¶ä»–é—®é¢˜ï¼Œä½ å¯ä»¥é€šè¿‡ä»¥ä¸‹æ–¹å¼è”ç³»æˆ‘
+
+* æœ¬é¡¹ç›®[æäº¤Issue](https://github.com/yuhaiyang/CN_ISP_RIB/issues/new)
+* é€šè¿‡[åšå®¢é¡µé¢](http://www.cnblogs.com/haiyangyu/p/5545133.html "[å®šæœŸè‡ªåŠ¨æ›´æ–°]Hillstone å±±çŸ³ç½‘ç§‘ StoneOS ISPè·¯ç”±è¡¨é…ç½®æ–‡ä»¶")ç•™è¨€
+* ç»™æˆ‘[å‘é€é‚®ä»¶](mailto:yuhaiyang@outlook.com)
