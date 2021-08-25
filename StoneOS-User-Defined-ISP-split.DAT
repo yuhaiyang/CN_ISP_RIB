@@ -2,7 +2,7 @@
 # A line leading by '#' is a comment line.
 # Author: Haiyang Yu
 # Contact: yuhaiyang@outlook.com
-# Create Date: 2021-08-24 00:02:19
+# Create Date: 2021-08-25 00:02:24
 # Mapping relation: [abbr.] --- ISP
 # abbr. should be 'A~Z', ISP name length 1~31.
 # ISP name is composed of alphabet and '-'.
@@ -10,8 +10,8 @@
 # IP Subnet NO. :49
 # IP Address NO. :35190784
 2 --- ChinaUnicom
-# IP Subnet NO. :546
-# IP Address NO. :70699264
+# IP Subnet NO. :547
+# IP Address NO. :70576384
 3 --- ChinaTelcom-Part1
 # IP Subnet NO. :1700
 # IP Address NO. :120457728
@@ -526,8 +526,7 @@
 2:210.12.0.0/15
 2:210.14.160.0/19
 2:210.14.192.0/18
-2:210.15.0.0/18
-2:210.15.96.0/19
+2:210.15.0.0/17
 2:210.15.128.0/18
 2:210.21.0.0/16
 2:210.22.0.0/16
@@ -609,7 +608,9 @@
 2:221.199.192.0/20
 2:221.199.224.0/19
 2:221.200.0.0/13
-2:221.208.0.0/12
+2:221.208.0.0/14
+2:221.212.0.0/15
+2:221.216.0.0/13
 2:222.128.0.0/12
 2:222.160.0.0/15
 2:222.162.0.0/16
