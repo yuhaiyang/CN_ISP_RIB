@@ -5,7 +5,7 @@
 # ISP name is composed of alphabet and '-'.
 A --- ChinaMobile
 # IP Subnet NO. :49
-# IP Address NO. :35092480
+# IP Address NO. :35059712
 B --- ChinaUnicom
 # IP Subnet NO. :373
 # IP Address NO. :61905664
@@ -63,7 +63,7 @@ A:223.116.0.0/15
 A:223.120.128.0/17
 A:223.121.128.0/17
 A:223.122.128.0/17
-A:223.123.0.0/16
+A:223.123.128.0/17
 A:223.124.0.0/14
 # ChinaUnicom
 B:1.24.0.0/13
